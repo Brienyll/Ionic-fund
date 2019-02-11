@@ -8,6 +8,7 @@ import { TabsPageRoutingModule } from './tabs.router.module';
 
 import { TabsPage } from './tabs.page';
 import { TodoPageModule } from '../todo/todo.module';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { TodoPageModule } from '../todo/todo.module';
     CommonModule,
     FormsModule,
     TabsPageRoutingModule,
-    TodoPageModule
+    TodoPageModule,
+    ComponentsModule
   ],
   declarations: [TabsPage]
 })
